@@ -1,0 +1,34 @@
+div.navbar-options-programming {
+	width: 100%;
+	display: flex;
+	position: fixed;
+	margin-top: 72px;
+	background-color: #2A7B92;
+	z-index: 10;
+}
+
+div.navbar-options-programming li {
+	color: white;
+	padding: 0.5em;
+}
+
+.main_image img {
+	width: 100%;
+}
+
+section.options {
+	background-color: #EEEEEE;
+	height: 500px;
+}
+
+.options h2 {
+	margin-top: 0;
+	padding-top: 1em;
+}
+
+div.options-program {
+	margin: 0 auto;
+	background-color: white;
+	width: 80%;
+	height: 250px;
+}

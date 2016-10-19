@@ -1,0 +1,67 @@
+div.navbar-options-about_us {
+	width: 100%;
+	display: flex;
+	position: fixed;
+	margin-top: 72px;
+	background-color: #136D87;
+	z-index: 10;
+}
+
+div.navbar-options-about_us li {
+	color: white;
+	padding: 0.5em;
+}
+
+.about_us {
+	margin: 0 auto;
+	padding-top: 6em;
+	width: 80%;
+}
+
+.about_us p {
+	line-height: 1.5em;
+}
+
+.end_information {
+	height: 250px;
+	background-color: #136D87;
+	width: 100%;
+}
+
+.goals li {
+	text-align: left;
+	list-style: square; 
+	line-height: 1.5em;
+	padding-left: 2.5em;
+}
+
+.goal {
+	margin: 0 auto;
+	width: 80%;
+	line-height: 1.5em;
+}
+
+.pic {
+	width: 210px;
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+div.localization {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.localization-information {
+	width: 40%;
+}
+
+.localization-map iframe {
+	margin-top: 3em;
+}
+
+.localization p {
+	margin-bottom: 0;
+}

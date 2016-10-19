@@ -1,0 +1,421 @@
+@import 'robotica.css';
+@import 'about_us.css';
+@import 'programacion.css';
+
+body {
+	margin: 0;
+	top: 0;
+	left: 0;
+	font-size: 16px;
+}
+
+li {
+	width: 100%;
+	color: black;
+	list-style-type: none;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+nav {
+	background-color: white;
+	z-index: 10;
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	position: fixed;
+	width: 100%
+}
+
+ul {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	margin: 0;
+}
+
+p.center_p {
+	width: 90%;
+	text-align: center;
+}
+
+div.navbar-logo {
+	width: 60%;
+}
+
+div.navbar-contact {
+	width: 40%;
+	float: right;
+}
+
+div.navbar-contact li {
+	color: gray;
+}
+
+div.navbar-contact li {
+	margin-top: 1.5em;
+	margin-right: 1.5em;
+}
+
+div.navbar-options {
+	width: 100%;
+	display: flex;
+	position: fixed;
+	margin-top: 72px;
+	background-color: black;
+	z-index: 10;
+}
+
+div.navbar-options li {
+	color: white;
+	padding: 0.5em;
+}
+
+div.main {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	background-image: url("../img/education_nextgen.jpg");
+	background-size: cover;
+}
+
+div.main p {
+	width: 50%;
+	margin: 0 auto;
+	text-align: justify;
+	color: white;
+	font-size: 1.2em;
+}
+
+div.text {
+	width: 30%;
+	margin-top: 320px;
+	margin-left: 100px;
+	color: white;
+	background-color: rgba(251,67,57,0.8);
+}
+	
+div.text h2{
+	color: white;
+}
+
+section.programs-description {
+	height: 85vh;
+}
+
+section.programs-description h2 {
+	margin: 0.5em 0 0 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+div.center_img.flex_column h1 {
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+}
+
+div.center_img.flex_column img {
+	z-index: 1;
+}
+
+div.programs {
+	display: flex;
+	justify-content: space-between;
+}
+
+div.spacer {
+	width: 2%;
+}
+
+div.programming {
+	position: relative;
+	width: 25.5%;
+}
+
+div.programming img {
+	width: 100%;
+}
+
+span.programming_info {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	height: 100%;
+	color: white;
+	background: #136D87;
+	background: rgba(19,109,135,0.9);
+	vertical-align: center;
+	transition: all ease 0.8s;
+	text-align: center;
+}
+
+.programming_info h2 {
+	padding-top: 10%;
+	font-family: 'Montserrat';
+}
+
+.programming_info p {
+	font-family: 'Open Sans', 'sans-serif';
+}
+
+.inside_container {
+	margin: 0 auto;
+	width: 90%;
+}
+
+.programming:hover .programming_info {
+	opacity: 1;
+}
+
+
+div.robotics {
+	position: relative;
+	width: 25.5%;
+}
+
+div.robotics img {
+	width: 100%;
+}
+
+span.robotics_info {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	height: 100%;
+	color: white;
+	background: #58585A;
+	background: rgba(88,88,90,0.9);
+	transition: all ease 0.8s;
+	text-align: center;
+}
+
+.robotics_info h2 {
+	padding-top: 10%;
+	font-family: 'Montserrat';
+}
+
+.robotics_info p {
+	font-family: 'Open Sans', 'sans-serif';
+}
+
+.inside_container {
+	margin: 0 auto;
+	width: 90%;
+}
+
+.robotics:hover .robotics_info {
+	opacity: 1;
+	cursor: context-menu;
+}
+
+
+div.afterschool {
+	position: relative;
+	width: 25.5%;
+}
+
+div.afterschool img {
+	width: 100%;
+}
+
+span.afterschool_info {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	height: 100%;
+	color: white;
+	background: #C9403C;
+	background: rgba(201,64,60,0.9);
+	vertical-align: center;
+	transition: all ease 0.8s;
+	text-align: center;
+}
+
+.afterschool_info h2 {
+	padding-top: 10%;
+	font-family: 'Montserrat';
+}
+
+.afterschool_info p {
+	font-family: 'Open Sans', 'sans-serif';
+}
+
+
+.afterschool:hover .afterschool_info {
+	opacity: 1;
+}
+
+section.skills {
+	height: 80vh;
+	background-color: #F7F7F9;
+}
+
+section.skills h1 {
+	font-family: 'Helvetica', cursive;
+	padding-top: 0.5em;
+}
+
+section.skills h2 {
+	margin: 0 auto;
+	border-bottom: 2px solid blue;
+	width: 55%;
+}
+
+div.center_img {
+	margin: 0 auto;
+}
+
+div.creativity {
+	width: 30%;
+	height: 60vh;
+}
+
+div.creativity img {
+	margin: 0.5em 0 0.5em 0;
+	border-radius: 50%;
+	border: 1px solid black;
+}
+
+div.team_work {
+	width: 30%;
+	height: 60vh;
+	background-color: #F7F7F9;
+}
+
+div.team_work img {
+	margin: 0.5em 0 0.5em 0;
+	border-radius: 50%;
+	border: 1px solid black;
+}
+
+div.power {
+	width: 30%;
+	height: 60vh;
+}
+
+div.power img {
+	margin: 0.5em 0 0.5em 0;
+	border-radius: 50%;
+	border: 1px solid black;
+}
+
+footer {
+	display: flex;
+	/*border-top: 1px solid black;*/
+	height: 25vh;
+	margin-top: 2em;
+	margin-bottom: 1em;
+	justify-content: space-around;
+	background-image: url("../img/programas.png");	
+	background-size: cover;
+}
+
+.flex_column {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.call2act {
+	font-family: "Montserrat";
+	padding: 0.5em 2em;
+	color: white;
+	background-color: #FD2B23;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+section.contact_us {
+	height: 250px;
+	background-color: #005A76;
+	background-image: url("../img/direccion.jpg");
+	background-size: cover;
+}
+
+section.contact_us h1{
+	color: white;
+}
+
+
+form {
+	margin: 0 auto;
+	width: 80%;
+}
+
+div.personal_information {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.5em 0;
+}
+
+input {
+	border-radius: 4px;
+	height: 40px;
+	padding-left: 10px;
+	background: none;
+	color: white;
+	font-weight: 500;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+
+input.name {
+	width: 30%;
+}
+
+input.mail {
+	width: 30%;
+}
+
+input.phone {
+	width: 30%;
+}
+
+textarea.message {
+	width: 100%;
+	border-radius: 4px;
+	height: 40px;
+	padding-left: 10px;
+	background: none;
+	font-family: Helvetica;
+	font-weight: 500;
+	color: white;
+}
+
+input.call2act {
+	margin:	0 auto;
+}
+
+.circle_img {
+	margin: 0.5em 0 0.5em 0;
+	border-radius: 50%;
+	height: 100px;
+}
+
+.flex_row {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+.flex_row p {
+	margin-top: 0px;
+	padding-top: 0px;
+
+}
+
+/* CSS - Página del programa de Robótica */
